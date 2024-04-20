@@ -34,4 +34,7 @@
     <!-- vendor common >
     <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230/gitlab" /-->
 
+    <!-- Dolby -->
+    <project path="hardware/dolby" name="hardware_dolby" revision="A13" remote="inferno0230/github" />
+
 </manifest>
