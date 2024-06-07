@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="inferno0230/github"
+    <remote name="inferno0230"
             fetch="git@github.com:OnePlus12R-development" />
 
-    <remote name="inferno0230/gitlab"
-            fetch="git@gitlab.com:inferno0230" />
-    
+    <!-- android certs -->
+    <project path="vendor/lineage/signing/keys" name="android-certs" revision="master" remote="inferno0230" />
+
     <!-- device tree deps-->
-    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="fourteen" remote="inferno0230/github" />
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="lineage-21" remote="inferno0230" />
 
     <!-- Wtf is this. Why tf is this -->
-    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230/github" />
+    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" />
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="fourteen-qpr2" remote="inferno0230/github" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
 
     <!-- ktree -->
-    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="inferno0230/github" />
+    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="inferno0230" />
 
     <!-- kmod -->
-    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="commonise" remote="inferno0230/github" />
+    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-21" remote="inferno0230" />
 
-    <!-- kdtsi >
-    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21" remote="inferno0230/github" /-->
+    <!-- kdtsi -->
+    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21" remote="inferno0230" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="fourteen-qpr2" remote="inferno0230/github" />
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="inferno0230" />
 
-    <!-- vendor device >
-    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-21" remote="inferno0230/gitlab" /-->
+    <!-- vendor device -->
+    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-21" remote="inferno0230" />
 
-    <!-- vendor common >
-    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230/gitlab" /-->
+    <!-- vendor common -->
+    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
 
     <!-- Dolby -->
-    <project path="hardware/dolby" name="hardware_dolby" revision="A13" remote="inferno0230/github" />
+    <project path="hardware/dolby" name="hardware_dolby" revision="A13" remote="inferno0230" />
 
 </manifest>
