@@ -7,8 +7,8 @@
     <!-- device tree deps-->
     <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="lineage-21" remote="inferno0230" />
 
-    <!-- Wtf is this. Why tf is this -->
-    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" />
+    <!-- Wtf is this. Why tf is this>
+    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" /-->
 
     <!-- common tree -->
     <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
@@ -20,7 +20,7 @@
     <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-21" remote="inferno0230" />
 
     <!-- kdtsi -->
-    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="commonise" remote="inferno0230" />
+    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21" remote="inferno0230" />
 
     <!-- hardware/oplus -->
     <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="inferno0230" />
