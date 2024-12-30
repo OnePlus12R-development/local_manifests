@@ -4,31 +4,22 @@
     <remote name="inferno0230"
             fetch="https://github.com/OnePlus12R-development" />
 
-    <!-- device tree deps-->
-    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="lineage-21" remote="inferno0230" />
-
-    <!-- Wtf is this. Why tf is this>
-    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" /-->
+    <!-- device tree -->
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="lineage-22.1" remote="inferno0230" />
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-22.1" remote="inferno0230" />
 
     <!-- ktree -->
-    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="inferno0230" />
+    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-22.0" remote="inferno0230" />
 
     <!-- kmod -->
-    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-21" remote="inferno0230" />
+    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-22.0" remote="inferno0230" />
 
-    <!-- kdtsi -->
-    <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21" remote="inferno0230" />
+    <!-- Prebuilt dtb/o (built from source) -->
+    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-22.0" remote="inferno0230" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="inferno0230" />
-
-    <!-- vendor device -->
-    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-21" remote="inferno0230" />
-
-    <!-- vendor common -->
-    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-22.0" remote="inferno0230" />
 
 </manifest>
