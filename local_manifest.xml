@@ -22,4 +22,10 @@
     <!-- hardware/oplus -->
     <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-22.0" remote="inferno0230" />
 
+    <!-- vendor device -->
+    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-22.1" remote="inferno0230" />
+
+    <!-- vendor common -->
+    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-22.1" remote="inferno0230" />
+
 </manifest>
